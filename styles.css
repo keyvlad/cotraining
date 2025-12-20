@@ -1,3 +1,10 @@
+.playfair-display-uniquifier{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .body{
     display: flex;
     width: 100%;
@@ -90,17 +97,25 @@
 }
 .center-navigation-block{
     width: 300px;
-    height: 400px;
+    height: 420px;
 }
 .representation-block{
-    font-size: 35px;
+    font-size: 32px;
     width: 350px;
     height: 100px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .who-block{
     width: 230px;
-    height: 50px;
+    height: 55px;
     font-size: 22px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .buttons-block{
     width: 100%;
@@ -117,6 +132,10 @@
 }
 .button-text{
     font-size: 16px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .directions-block{
     width: 100%;
@@ -156,12 +175,20 @@
     align-items: center;
 }
 .policy{
-    width: 190px;
+    width: 210px;
     height: 20px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .cookie{
-    width: 265px;
+    width: 290px;
     height: 20px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .lower-right-block{
     display: flex;
@@ -172,13 +199,17 @@
     background-color : #FAD9D9;
 }
 .text-lower-right{
-    width: 385px;
+    width: 425px;
     height: 20px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .black{
     color: #000;
 }
-.button{ /* кнопки */
+.button{
     font-size: 14px;
     background-color: white;
     color: rgb(0, 0, 0);
@@ -190,4 +221,8 @@
 .fishnet{
     text-decoration: none !important;
     color: inherit !important;  
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
