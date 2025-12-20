@@ -5,18 +5,20 @@
     justify-content: center;
     align-items: center;
 }
-.left-bloc{
-    background: 
+.color{
+ background: 
         radial-gradient(circle at 20% 30%, #ff9a9e 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, #a1c4fd 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, #0062ff 0%, transparent 40%),
         radial-gradient(circle at 50% 50%, #fad0c4 0%, transparent 50%),
-        radial-gradient(circle at 30% 80%, #ff9a9e 0%, transparent 40%),
+        radial-gradient(circle at 30% 80%, #e4040b 0%, transparent 40%),
         radial-gradient(circle at 70% 20%, #c2e9fb 0%, transparent 40%),
         radial-gradient(circle at 10% 60%, #ffd1ff 0%, transparent 40%),
         radial-gradient(circle at 90% 40%, #a1c4fd 0%, transparent 40%);
     background-blend-mode: screen;
-    
+    background-attachment: fixed;
     overflow: hidden;
+}
+.left-bloc{
     width: 50%;
     height: 670px;
 }
@@ -152,17 +154,6 @@
     height: 80px;
     justify-content: space-around;
     align-items: center;
-    background: 
-        radial-gradient(circle at 20% 30%, #ff9a9e 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, #a1c4fd 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, #fad0c4 0%, transparent 50%),
-        radial-gradient(circle at 30% 80%, #ff9a9e 0%, transparent 40%),
-        radial-gradient(circle at 70% 20%, #c2e9fb 0%, transparent 40%),
-        radial-gradient(circle at 10% 60%, #ffd1ff 0%, transparent 40%),
-        radial-gradient(circle at 90% 40%, #a1c4fd 0%, transparent 40%);
-    background-blend-mode: screen;
-    
-    overflow: hidden;
 }
 .policy{
     width: 190px;
